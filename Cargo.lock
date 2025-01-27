@@ -614,9 +614,9 @@ dependencies = [
 
 [[package]]
 name = "generate_kana_table"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bbfc14541fcfda2f81ffc39ffa3e960aba7f16bf539d47ebcec92206b8f8b610"
+checksum = "fba96bf2c1c38e01d059a04e65c555df2eeb00e2e691b0d3caf92f72e0c115a4"
 dependencies = [
  "clap",
  "serde",

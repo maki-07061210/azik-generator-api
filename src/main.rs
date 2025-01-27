@@ -1,10 +1,5 @@
-mod generate_kana_table;
-
-use generate_kana_table::azik_config::AzikConfig;
-use generate_kana_table::gen_kana_table::gen_hiragana_table;
-
-pub use crate::generate_kana_table::gen_kana_table;
 use axum::{http::StatusCode, routing::post, Json, Router};
+use generate_kana_table::{gen_hiragana_table, AzikConfig};
 
 #[shuttle_runtime::main]
 async fn main() -> shuttle_axum::ShuttleAxum {

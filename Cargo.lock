@@ -240,13 +240,9 @@ name = "azik-generator-web"
 version = "0.1.0"
 dependencies = [
  "axum 0.8.1",
- "clap",
- "serde",
- "serde_json",
+ "generate_kana_table",
  "shuttle-axum",
  "shuttle-runtime",
- "strum 0.26.3",
- "strum_macros 0.26.4",
  "tokio",
 ]
 
@@ -614,6 +610,19 @@ dependencies = [
  "pin-project-lite",
  "pin-utils",
  "slab",
+]
+
+[[package]]
+name = "generate_kana_table"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bbfc14541fcfda2f81ffc39ffa3e960aba7f16bf539d47ebcec92206b8f8b610"
+dependencies = [
+ "clap",
+ "serde",
+ "serde_json",
+ "strum 0.26.3",
+ "strum_macros 0.26.4",
 ]
 
 [[package]]

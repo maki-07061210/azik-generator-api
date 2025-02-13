@@ -237,7 +237,7 @@ dependencies = [
 
 [[package]]
 name = "azik-generator-web"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "axum 0.8.1",
  "generate_kana_table",
@@ -614,11 +614,12 @@ dependencies = [
 
 [[package]]
 name = "generate_kana_table"
-version = "0.1.1"
+version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fba96bf2c1c38e01d059a04e65c555df2eeb00e2e691b0d3caf92f72e0c115a4"
+checksum = "72b60931e0b9a534c4ca41d197916108d2551ec8be09f612da826e7db4ff7af5"
 dependencies = [
  "clap",
+ "regex",
  "serde",
  "serde_json",
  "strum 0.26.3",
